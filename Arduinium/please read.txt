@@ -1,0 +1,1 @@
+This can use either the au or mu version of the atmega32u4. The mu version is a little cheaper.
