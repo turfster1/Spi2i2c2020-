@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lcd>
+  <navigation>
+    <line>Free Memory: $INFO[System.FreeMemory]</line>
+    <line>CPU: $INFO[System.CPUFrequency]</line>
+    <line>$INFO[System.ScreenWidth]x$INFO[System.ScreenHeight]</line>
+    <line>I.P.:$INFO[Network.IPAddress]</line>
+  </navigation>
+  <music>
+    <line>Free Memory: $INFO[System.FreeMemory]</line>
+    <line>CPU: $INFO[System.CPUFrequency]</line>
+    <line>$INFO[System.ScreenWidth]x$INFO[System.ScreenHeight]</line>
+    <line>I.P.:$INFO[Network.IPAddress]</line>
+  </music>
+  <video>
+    <line>Free Memory: $INFO[System.FreeMemory]</line>
+    <line>$INFO[LCD.PlayIcon] $INFO[Player.Time]/$INFO[Player.Duration]</line>
+    <line>$INFO[LCD.ProgressBar]</line>
+    <line>$INFO[VideoPlayer.Title]</line>
+  </video>
+  <general>
+    <line>Free Memory: $INFO[System.FreeMemory]</line>
+    <line>CPU: $INFO[System.CPUFrequency]</line>
+    <line>$INFO[System.ScreenWidth]x$INFO[System.ScreenHeight]</line>
+    <line>I.P.:$INFO[Network.IPAddress]</line>
+  </general>
+  <screensaver>
+    <line>--SCREENSAVER--------</line>
+    <line>----SCREENSAVER------</line>
+    <line>------SCREENSAVER----</line>
+    <line>--------SCREENSAVER--</line>
+  </screensaver>
+  <xbelaunch>
+    <line>NOW Running...</line>
+    <line>$INFO[System.LaunchXBE]</line>
+  </xbelaunch>
+</lcd>
